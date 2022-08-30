@@ -10,6 +10,8 @@
 -bol-orange: #F29E33;
 --bol-lightgrey: #F6F8F9;
 --bol-grey: #444851;
+--bol-borderbox-grey: #c5cbd0;
+
 
 }
 
@@ -23,8 +25,18 @@
     vertical-align: middle;
 }
 
+main {
+    padding-top: 1em;
+}
+
 #site_main, #site_footer {
     background-color: var(--bol-lightgrey);
+}
+
+button {
+    border: 1px solid;
+    border-radius: 0.25em;
+    padding: 0.5em 1em;
 }
 
 /* header */
@@ -35,18 +47,37 @@
 
 /* comtainer */
 
-.container {
+.container1 {
         background-color: white;
         width: 70%;
-        margin: 2em auto;
-        border-radius: 0.25em;
-        text-align: center;
-      
+        margin: auto;
+        border-radius:0.15em 0.15em 0 0;
+        padding: 1em;
+        border-bottom: 2px solid var(--bol-lightgrey);
+       
+}
+.container2 {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius:0 0 0.15em 0.15em;
+    padding: 1em;
 }
 
-/* add tash +section */
+
+/* add task +section */
 
 .task {
     background-color: var(--bol-blue);
     color: white;
+    border-color: var(--bol-blue);  
 }
+
+.add_section {
+    border-color: var(--bol-borderbox-grey);
+    color: var(--bol-borderbox-grey);
+    background-color: white;
+}
+
+
+/* tasklist */
