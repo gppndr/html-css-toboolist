@@ -8,5 +8,45 @@
 --bol-green: #B0C926;
 --bol-pink: #D863A1;
 -bol-orange: #F29E33;
---bol-grey: #F6F8F9;
+--bol-lightgrey: #F6F8F9;
+--bol-grey: #444851;
+
+}
+
+/* common rules */
+
+*{
+    box-sizing: border-box;
+}
+
+.logo, .logotipo{
+    vertical-align: middle;
+}
+
+#site_main, #site_footer {
+    background-color: var(--bol-lightgrey);
+}
+
+/* header */
+
+.logotipo {
+    font-size: 3em;
+}
+
+/* comtainer */
+
+.container {
+        background-color: white;
+        width: 70%;
+        margin: 2em auto;
+        border-radius: 0.25em;
+        text-align: center;
+      
+}
+
+/* add tash +section */
+
+.task {
+    background-color: var(--bol-blue);
+    color: white;
 }
