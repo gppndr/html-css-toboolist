@@ -1,0 +1,12 @@
+/* color palette */
+
+:root {
+--bol-lightblue: #45ABEA;
+--bol-blue: #47ADF1;
+--bol-lightgreen: #64C0A9;
+--bol-purple: #9C72E4;
+--bol-green: #B0C926;
+--bol-pink: #D863A1;
+-bol-orange: #F29E33;
+--bol-grey: #F6F8F9;
+}
